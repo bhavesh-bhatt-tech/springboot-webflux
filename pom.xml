@@ -25,6 +25,10 @@
 	    <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
 	    <sonar.jacoco.reportPath>${project.basedir}/../target/jacoco.exec</sonar.jacoco.reportPath>
 	    <sonar.language>java</sonar.language>
+	    <sonar.exclusions>src/main/java/com/devhabit/webflux/reposity/*</sonar.exclusions>
+	    <sonar.exclusions>src/main/java/com/devhabit/webflux/SpringbootWebfluxApplication*</sonar.exclusions>
+	    <sonar.exclusions>src/main/java/com/devhabit/webflux/model/*</sonar.exclusions>
+	    	    			        
 	</properties>
 	<dependencies>
 		<dependency>
@@ -123,7 +127,12 @@
         		<configuration>
 			        <excludes>
 			            <exclude>com/devhabit/webflux/reposity/*</exclude>			            
-			            <exclude>com/devhabit/webflux/SpringbootWebfluxApplication.class</exclude>
+			            <exclude>
+							com/devhabit/webflux/SpringbootWebfluxApplication.java
+						</exclude>
+					    <exclude>
+							com/devhabit/webflux/model/*
+						</exclude>
 			        </excludes>
     		 	</configuration>
 		        <executions>
