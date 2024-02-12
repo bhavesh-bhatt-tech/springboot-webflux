@@ -28,7 +28,8 @@
 	    <sonar.exclusions>src/main/java/com/devhabit/webflux/reposity/*</sonar.exclusions>
 	    <sonar.exclusions>src/main/java/com/devhabit/webflux/SpringbootWebfluxApplication*</sonar.exclusions>
 	    <sonar.exclusions>src/main/java/com/devhabit/webflux/model/*</sonar.exclusions>
-	    <sonar.organization>devhabit</sonar.organization>    			        
+	    <sonar.organization>devhabit</sonar.organization> 
+	    <sonar.host.url>https://sonarcloud.io</sonar.host.url>   			        
 	</properties>
 	<dependencies>
 		<dependency>
