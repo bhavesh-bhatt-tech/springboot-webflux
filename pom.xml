@@ -28,7 +28,7 @@
 	    <sonar.exclusions>src/main/java/com/devhabit/webflux/reposity/*</sonar.exclusions>
 	    <sonar.exclusions>src/main/java/com/devhabit/webflux/SpringbootWebfluxApplication*</sonar.exclusions>
 	    <sonar.exclusions>src/main/java/com/devhabit/webflux/model/*</sonar.exclusions>
-	    	    			        
+	    <sonar.organization>devhabit</sonar.organization>    			        
 	</properties>
 	<dependencies>
 		<dependency>
