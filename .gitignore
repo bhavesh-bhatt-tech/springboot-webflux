@@ -27,3 +27,8 @@ replay_pid*
 .classpath
 .settings/org.sonarlint.eclipse.core.prefs
 target/*
+.classpath
+.factorypath
+*.ini
+*.lst
+*.original
